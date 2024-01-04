@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Dashboard</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+
+    <link href="css/tooplate-little-fashion.css" rel="stylesheet">
+    <!-- Custom styles for this template-->
+    <link href="sb-admin-2.min.css" rel="stylesheet">
+
+    <!--
+
+Tooplate 2127 Little Fashion
+
+https://www.tooplate.com/view/2127-little-fashion
+
+-->
+
+    <style>
+        .container-fluid {
+            margin-top: 7%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="preloader">
+        <div class="spinner">
+            <span class="sk-inner-circle"></span>
+        </div>
+    </section>
+
+    <main>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <a class="navbar-brand" href="index.html">
+                    <strong><span>Cash</span>Wave</strong>
+                </a>
+
+                <div class="d-lg-none">
+                    <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+
+                    <a href="product-detail.html" class="bi-bag custom-icon"></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="about.html">Dashboard</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">Setting</a>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </nav>
+
+
+
+
+        </header>
+        <!--dashboard-->
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+            <!-- Page Heading -->
+            <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+                <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                        class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+            </div>
+
+            <!-- Content Row -->
+            <div class="row">
+
+                <!-- Earnings (Monthly) Card Example -->
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="card border-left-primary shadow h-100 py-2">
+                        <div class="card-body">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col mr-2">
+                                    <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                        Earnings (Monthly)</div>
+                                    <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
+                                </div>
+                                <div class="col-auto">
+                                    <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Earnings (Monthly) Card Example -->
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="card border-left-success shadow h-100 py-2">
+                        <div class="card-body">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col mr-2">
+                                    <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                        Earnings (Annual)</div>
+                                    <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
+                                </div>
+                                <div class="col-auto">
+                                    <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Earnings (Monthly) Card Example -->
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="card border-left-info shadow h-100 py-2">
+                        <div class="card-body">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col mr-2">
+                                    <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Tasks
+                                    </div>
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col-auto">
+                                            <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">50%</div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="progress progress-sm mr-2">
+                                                <div class="progress-bar bg-info" role="progressbar" style="width: 50%"
+                                                    aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pending Requests Card Example -->
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="card border-left-warning shadow h-100 py-2">
+                        <div class="card-body">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col mr-2">
+                                    <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                                        Pending Requests</div>
+                                    <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
+                                </div>
+                                <div class="col-auto">
+                                    <i class="fas fa-comments fa-2x text-gray-300"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content Row -->
+
+            <div class="row">
+
+                <!-- Area Chart -->
+                <div class="col-xl-8 col-lg-7">
+                    <div class="card shadow mb-4">
+                        <!-- Card Header - Dropdown -->
+                        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                            <h6 class="m-0 font-weight-bold text-primary">Earnings Overview</h6>
+                            <div class="dropdown no-arrow">
+                                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                    aria-labelledby="dropdownMenuLink">
+                                    <div class="dropdown-header">Dropdown Header:</div>
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card Body -->
+                        <div class="card-body">
+                            <div class="chart-area">
+                                <canvas id="myAreaChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pie Chart -->
+                <div class="col-xl-4 col-lg-5">
+                    <div class="card shadow mb-4">
+                        <!-- Card Header - Dropdown -->
+                        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                            <h6 class="m-0 font-weight-bold text-primary">Revenue Sources</h6>
+                            <div class="dropdown no-arrow">
+                                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                    aria-labelledby="dropdownMenuLink">
+                                    <div class="dropdown-header">Dropdown Header:</div>
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card Body -->
+                        <div class="card-body">
+                            <div class="chart-pie pt-4 pb-2">
+                                <canvas id="myPieChart"></canvas>
+                            </div>
+                            <div class="mt-4 text-center small">
+                                <span class="mr-2">
+                                    <i class="fas fa-circle text-primary"></i> Direct
+                                </span>
+                                <span class="mr-2">
+                                    <i class="fas fa-circle text-success"></i> Social
+                                </span>
+                                <span class="mr-2">
+                                    <i class="fas fa-circle text-info"></i> Referral
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- form-->
+
+            <form name="myForm" onsubmit="return validate();">
+                <center>
+                    <table border="4" onsubmit="return validate();">
+                        <thead>
+                            <tr>
+                                <th>Loan Amount </th>
+                                <td><input type="text" name="lamount" id="lamount"></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Loan Purpose</th>
+                                <td>
+                                    <select name="lpurpose" id="lpurpose">
+                                        <option value="home_loan">Home Loan</option>
+                                        <option value="vehicle_loan">Vehicle Loan</option>
+                                        <option value="business_loan">Business Loan</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Term</th>
+                                <td><input type="text" name="term" id="term"></td>
+                            </tr>
+                            <tr>
+                                <th>Income</th>
+                                <td><input type="text" name="income" id="income"></td>
+                            </tr>
+                            <tr class="button" id="btna">
+                                <td>
+                                    <div>
+                                        <input type="reset" value="Reset">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        
+                                        <input type="button" name="button" id="btn" value="Add" onclick="AddRow()">
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table border="4" id="show">
+                        <thead>
+                            <tr>
+                                <th>Loan Amount</th>
+                                <th>Loan Purpose</th>
+                                <th>Term</th>
+                                <th>Income</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </center>
+
+                <script>
+                    function validate() {
+                        var form = document.forms["myForm"];
+
+                        if (form.elements["lamount"].value == "") {
+                            alert("The Loan Amount is null, please input some number");
+                            return false;
+                        }
+
+                        // Add similar checks for other fields if needed
+
+                        return true;
+                    }
+
+
+                    var list1 = [];
+                    var list2 = [];
+                    var list3 = [];
+                    var list4 = [];
+                    var list5 = [];
+
+                    var n = 1;
+                    var x = 0;
+
+                    function AddRow() {
+
+
+                        var AddRown = document.getElementById('show');
+                        var NewRow = AddRown.insertRow(n);
+
+                        list1[x] = document.getElementById("lamount").value;
+                        list2[x] = document.getElementById("lpurpose").value;
+                        list3[x] = document.getElementById("term").value;
+                        list4[x] = document.getElementById("income").value;
+
+                        // Calculate status
+                        var lamount = parseFloat(list1[x]);
+                        var term = parseFloat(list3[x]);
+                        var income = parseFloat(list4[x]);
+
+                        if (!isNaN(lamount) && !isNaN(term) && !isNaN(income)) {
+                            var result = -0.0 * lamount + 0.0023 * term + 0.0001 * income - 0.6877;
+                            list5[x] = result.toFixed(2);  // Set status to two decimal places
+
+                            var cel1 = NewRow.insertCell(0);
+                            var cel2 = NewRow.insertCell(1);
+                            var cel3 = NewRow.insertCell(2);
+                            var cel4 = NewRow.insertCell(3);
+                            var cel5 = NewRow.insertCell(4);
+
+                            cel1.innerHTML = list1[x];
+                            cel2.innerHTML = list2[x];
+                            cel3.innerHTML = list3[x];
+                            cel4.innerHTML = list4[x];
+                            cel5.innerHTML = list5[x];
+
+                            // Check status and display recommendation
+                            if (parseFloat(list5[x]) > 1) {
+                                cel5.innerHTML += "<br><strong>You are recommended to apply for a loan.</strong>";
+                            } else {
+                                cel5.innerHTML += "<br><strong>You are not recommended to apply for a loan.</strong>";
+                            }
+                        } else {
+                            // Handle the case where one or more parameters are not valid numbers
+                            alert("Invalid input. Please enter valid numbers.");
+                        }
+
+                        n++;
+                        x++;
+
+                        // Retrieve user data from localStorage
+                        var storedUserData = localStorage.getItem('userData');
+
+                        // Check if user data exists
+                        if (storedUserData) {
+                            // Parse JSON string to object
+                            var userData = JSON.parse(storedUserData);
+
+                            // Now you can use userData.email, userData.psw, etc. in your about.html
+                            // Add your logic here
+                        }
+                    }
+                </script>
+            </form>
+
+
+
+            <!---->
+
+
+            <br>
+            <footer class="site-footer">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-3 col-10 me-auto mb-4">
+                            <h4 class="text-white mb-3"><a href="index.html">Cash</a>Wave</h4>
+                            <p class="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">Copyright © 2024 <strong>Cash
+                                    Wave</strong></p>
+                            <br>
+                            <p class="copyright-text"><a href="https://www.tooplate.com/" target="_blank"></a></p>
+                        </div>
+
+                        <div class="col-lg-5 col-8">
+                            <h5 class="text-white mb-3">Sitemap</h5>
+
+                            <ul class="footer-menu d-flex flex-wrap">
+                                <li class="footer-menu-item"><a href="about.html" class="footer-menu-link">About</a>
+                                </li>
+
+                                <li class="footer-menu-item"><a href="#" class="footer-menu-link">Products</a></li>
+
+                                <li class="footer-menu-item"><a href="#" class="footer-menu-link">Privacy policy</a>
+                                </li>
+
+                                <li class="footer-menu-item"><a href="#" class="footer-menu-link">FAQs</a></li>
+
+                                <li class="footer-menu-item"><a href="#" class="footer-menu-link">Contact</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-4">
+                            <h5 class="text-white mb-3">Social</h5>
+
+                            <ul class="social-icon">
+
+                                <li><a href="https://www.youtube.com/" class="social-icon-link bi-youtube"></a></li>
+
+                                <li><a href="https://www.whatsapp.com/" class="social-icon-link bi-whatsapp"></a></li>
+
+                                <li><a href="https://www.instagram.com/" class="social-icon-link bi-instagram"></a></li>
+
+                                <li><a href="https://www.skype.com/" class="social-icon-link bi-skype"></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </footer>
+
+
+
+
+
+
+            <!-- JAVASCRIPT FILES -->
+            <script src="js/jquery.min.js"></script>
+            <script src="js/bootstrap.bundle.min.js"></script>
+            <script src="js/Headroom.js"></script>
+            <script src="js/jQuery.headroom.js"></script>
+            <script src="js/slick.min.js"></script>
+            <script src="js/custom.js"></script>
+
+            <!-- Bootstrap core JavaScript-->
+            <script src="vendor/jquery/jquery.min.js"></script>
+            <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+            <!-- Core plugin JavaScript-->
+            <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+            <!-- Custom scripts for all pages-->
+            <script src="js/sb-admin-2.min.js"></script>
+
+            <!-- Page level plugins -->
+            <script src="vendor/chart.js/Chart.min.js"></script>
+
+            <!-- Page level custom scripts -->
+            <script src="js/demo/chart-area-demo.js"></script>
+            <script src="js/demo/chart-pie-demo.js"></script>
+
+</body>
+
+</html>

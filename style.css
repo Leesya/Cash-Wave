@@ -1,0 +1,62 @@
+
+#show th, #show td{
+	padding: 13px;
+}
+
+#btna td input{
+	width: 100%;
+}
+
+table {
+    width: 50%; 
+    margin: 20px auto; 
+    border-collapse: collapse;
+}
+
+
+th {
+    background-color: #f2f2f2; 
+    padding: 10px; 
+    text-align: left; 
+}
+
+select{
+  width: 46%;
+}
+
+td {
+    padding: 10px; 
+}
+
+
+.button {
+    text-align: center; 
+}
+
+#btn, input[type="reset"] {
+    padding: 8px 12px; 
+    background-color: #6a9f6c; 
+    color: white; 
+    border: none; 
+    cursor: pointer;
+    margin-right: 5px; 
+}
+
+
+table, th, td {
+    border: 1px solid #ddd; 
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+
+#show th, #show td{
+  padding: 13px;
+}
+
+#btna td input{
+  width: 100%;
+}
+
